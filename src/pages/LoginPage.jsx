@@ -28,7 +28,7 @@ function LoginPage() {
                             <input id="i2" type="password" />
 
                                 <div className="tip">
-                                    <Link to={`#`}>Forgot password?</Link>
+                                    <Link to={`/password-reset-request`}>Forgot password?</Link>
                                 </div>
 
                         </div>

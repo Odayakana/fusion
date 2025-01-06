@@ -17,6 +17,9 @@ import { MatchSummary } from './pages/MatchSummary';
 import { LoginPage } from './pages/LoginPage';
 import { RegisterPage } from './pages/RegisterPage';
 import { RegisterTeamPage } from './pages/RegisterTeamPage';
+import { PasswordResetRequest } from './pages/PasswordResetRequest';
+import { PasswordReset } from './pages/PasswordReset';
+
 
 import { Onboarding } from './pages/Onboarding';
 import { CreateLeague } from './pages/CreateLeague';
@@ -58,6 +61,10 @@ function App() {
               <Route path="login" element={<LoginPage />} />
               <Route path="register" element={<RegisterPage />} />
               <Route path="register-team" element={<RegisterTeamPage />} />
+
+              <Route path="password-reset-request" element={<PasswordResetRequest />} />
+              <Route path="password-reset" element={<PasswordReset />} />
+
 
               <Route path="onboarding" element={<Onboarding />} />
               <Route path="create-league" element={<CreateLeague />} />
