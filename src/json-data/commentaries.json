@@ -1,0 +1,243 @@
+[
+  {
+    "id": 1,
+    "sender" : "system",
+    "type" : "message-big",
+    "message" : "KICK OFF"
+  },
+  {
+    "id": 2,
+    "sender" : "player",
+    "type" : "playerOne",
+    "playerId" : 1,
+    "time" : "2`",
+    "messages" : [
+      {
+        "id" : 1,
+        "ico" : null,
+        "type" : null,
+        "message" : "D. Yiceny with the heel pass to <strong>B. Ohachusy</strong>"
+      },
+      {
+        "id" : 2,
+        "ico" : "ball.png",
+        "type" : "important",
+        "message" : "GOAL !! B. Ohachusy"
+      },
+      {
+        "id" : 3,
+        "ico" : "flash.png",
+        "type" : "attention",
+        "message" : "ASSIST D. Yiceny"
+      },
+      {
+        "id" : 4,
+        "ico" : "points.png",
+        "type" : null,
+        "message" : "Apes United 1-0 Universidad de Valladolid ..."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "sender" : "player",
+    "type" : "playerTwo",
+    "playerId" : 6,
+    "time" : "7`",
+    "messages" : [
+      {
+        "id" : 1,
+        "ico" : null,
+        "type" : null,
+        "message" : "<strong>Y. Loshtoo</strong> with an ugly foul"
+      },
+      {
+        "id" : 2,
+        "ico" : "points.png",
+        "type" : null,
+        "message" : "<strong>B. Ohachusy</strong> tries to chip the ball over the keeper !"
+      },
+      {
+        "id" : 3,
+        "ico" : "card-yellow.png",
+        "type" : "attention",
+        "message" : "Shown a yellow card"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "sender" : "player",
+    "type" : "playerOne",
+    "playerId" : 1,
+    "time" : "8`",
+    "messages" : [
+      {
+        "id" : 1,
+        "ico" : null,
+        "type" : null,
+        "message" : "<strong>K. Jaezew</strong> sidesteps his marker"
+      },
+      {
+        "id" : 2,
+        "ico" : "points.png",
+        "type" : null,
+        "message" : "But <strong>Y. Loshtoo</strong> wins the tackle"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "sender" : "player",
+    "type" : "playerOne",
+    "playerId" : 1,
+    "time" : "8`",
+    "messages" : [
+      {
+        "id" : 1,
+        "ico" : null,
+        "type" : null,
+        "message" : "<strong>B. Ohachusy</strong> finds Z_Zoest in the box"
+      },
+      {
+        "id" : 2,
+        "ico" : "points.png",
+        "type" : null,
+        "message" : "<strong>Y_Loshtoo</strong> gets in the way and wins the ball"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "sender" : "player",
+    "type" : "playerTwo",
+    "playerId" : 6,
+    "time" : "11`",
+    "messages" : [
+      {
+        "id" : 1,
+        "ico" : null,
+        "type" : null,
+        "message" : "<strong>N. Krorsa</strong> slides the ball across to <strong>V. Irstu</strong>"
+      },
+      {
+        "id" : 2,
+        "ico" : "points.png",
+        "type" : null,
+        "message" : "But <strong>C. Eja</strong> clears the danger"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "sender" : "system",
+    "type" : null,
+    "message" : "The ref adds 3 min. of injury time"
+  },
+  {
+    "id": 8,
+    "sender" : "system",
+    "type" : "time-block-end",
+    "message" : "HALF TIME"
+  },
+  {
+    "id": 9,
+    "sender" : "player",
+    "type" : "playerOne",
+    "playerId" : 1,
+    "time" : "46`",
+    "messages" : [
+      {
+        "id" : 1,
+        "ico" : null,
+        "type" : null,
+        "message" : "<strong>K. Jaezew</strong> finds C. Chinhooryo in the box"
+      },
+      {
+        "id" : 2,
+        "ico" : "points.png",
+        "type" : null,
+        "message" : "But <strong>U. Evow</strong> wins the tackle"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "sender" : "player",
+    "type" : "playerTwo",
+    "playerId" : 6,
+    "time" : "60`",
+    "messages" : [
+      {
+        "id" : 1,
+        "ico" : null,
+        "type" : null,
+        "message" : "<strong>Y. Loshtoo</strong> passes the ball to <strong>Y. Ekso</strong>"
+      },
+      {
+        "id" : 2,
+        "ico" : "ball.png",
+        "type" : "important",
+        "message" : "GOAL !! B. Ohachusy"
+      },
+      {
+        "id" : 3,
+        "ico" : "flash.png",
+        "type" : "attention",
+        "message" : "ASSIST Y. Loshtoo"
+      },
+      {
+        "id" : 4,
+        "ico" : "points.png",
+        "type" : null,
+        "message" : "Apes United 1-1 Universidad de Valladolid ..."
+      }
+
+    ]
+  },
+  {
+    "id": 11,
+    "sender" : "player",
+    "type" : "playerOne",
+    "playerId" : 1,
+    "time" : "73`",
+    "messages" : [
+      {
+        "id" : 1,
+        "ico" : null,
+        "type" : null,
+        "message" : "<strong> V. Grusht</strong> with the heel pass to <strong>Z. Zoest</strong>"
+      },
+      {
+        "id" : 2,
+        "ico" : "ball.png",
+        "type" : "important",
+        "message" : "GOAL !! B. Ohachusy"
+      },
+      {
+        "id" : 3,
+        "ico" : "flash.png",
+        "type" : "attention",
+        "message" : "ASSIST Y. Loshtoo"
+      },
+      {
+        "id" : 4,
+        "ico" : "points.png",
+        "type" : null,
+        "message" : "Apes United 1-1 Universidad de Valladolid ..."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "sender" : "system",
+    "type" : null,
+    "message" : "The ref adds 1 min. of injury time"
+  },
+  {
+    "id": 13,
+    "sender" : "system",
+    "type" : "match-end",
+    "message" : "FULL TIME"
+  }
+]

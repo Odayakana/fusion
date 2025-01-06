@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title" : "Attacking",
+    "properties" : {
+      "advantages" : "Long Ball, Defensive",
+      "flaws" : "Counterattacking, Neutral"
+    }
+
+  },
+  {
+    "id": 2,
+    "title" : "Neutral",
+    "properties" : {
+      "advantages" : "Long Ball, Defensive",
+      "flaws" : "Counterattacking, Neutral, Some"
+    }
+  },
+  {
+    "id": 3,
+    "title" : "Defensive",
+    "properties" : {
+      "advantages" : "Long Ball, Defensive",
+      "flaws" : "Counterattacking, Neutral"
+    }
+  },
+  {
+    "id": 4,
+    "title" : "Counterattacking",
+    "properties" : {
+      "advantages" : "Long Ball, Defensive",
+      "flaws" : "Counterattacking, Neutral"
+    }
+  },
+  {
+    "id": 5,
+    "title" : "Passing",
+    "properties" : {
+      "advantages" : "Long Ball, Defensive",
+      "flaws" : "Counterattacking, Neutral"
+    }
+  },
+  {
+    "id": 6,
+    "title" : "Long Ball",
+    "properties" : {
+      "advantages" : "Long Ball, Defensive",
+      "flaws" : "Counterattacking, Neutral"
+    }
+  }
+]

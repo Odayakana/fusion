@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "slug" : "apes_united",
+    "title" : "Apes United",
+    "image": "/src/assets/profile_2.png",
+    "availableSlots" : 10,
+    "seasonsPlayed" : 1,
+    "freeJoin" : true
+  },
+  {
+    "id": 2,
+    "slug" : "some_other_league",
+    "title" : "Some other league",
+    "image": "/src/assets/profile.png",
+    "availableSlots" : 4,
+    "seasonsPlayed" : 2,
+    "freeJoin" : false
+
+  },
+  {
+    "id": 3,
+    "slug" : "some_other_league_2",
+    "title" : "Some other league 2",
+    "image": "/src/assets/profile_2.png",
+    "availableSlots" : 14,
+    "seasonsPlayed" : 4,
+    "freeJoin" : true
+
+  }
+]
