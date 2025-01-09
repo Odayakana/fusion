@@ -202,9 +202,9 @@ function MyTeamList() {
                           </div>
                       </div>
 
-                      <button type="button" className="settings-submit-btn">
+                      <Link to="/team-settings" className="settings-submit-btn">
                           TEAM SETTINGS
-                      </button>
+                      </Link>
 
                   </div>
 

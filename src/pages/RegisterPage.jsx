@@ -35,7 +35,13 @@ function RegisterPage() {
         }),
         input: (provided) => ({
             height: 40,
-            pointerEvents: 'none'
+            pointerEvents: 'none',
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "200px",
+            padding: '0 14px'
+
         }),
 
         option: (provided, state) => ({
@@ -50,6 +56,7 @@ function RegisterPage() {
             borderRadius: '8px',
             overflow: 'hidden',
             fontSize: '14px',
+            zIndex: 20
 
         }),
         singleValue: (provided) => ({

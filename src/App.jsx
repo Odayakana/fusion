@@ -20,6 +20,12 @@ import { RegisterTeamPage } from './pages/RegisterTeamPage';
 import { PasswordResetRequest } from './pages/PasswordResetRequest';
 import { PasswordReset } from './pages/PasswordReset';
 
+import { SettingsPersonal } from './pages/SettingsPersonal';
+import { SettingsNotifications } from './pages/SettingsNotifications';
+import { SettingsPrivacy } from './pages/SettingsPrivacy';
+
+import { TeamSettings } from './pages/TeamSettings';
+import { LeagueSettings } from './pages/LeagueSettings';
 
 import { Onboarding } from './pages/Onboarding';
 import { CreateLeague } from './pages/CreateLeague';
@@ -65,6 +71,12 @@ function App() {
               <Route path="password-reset-request" element={<PasswordResetRequest />} />
               <Route path="password-reset" element={<PasswordReset />} />
 
+              <Route path="settings-personal" element={<SettingsPersonal />} />
+              <Route path="settings-notifications" element={<SettingsNotifications />} />
+              <Route path="settings-privacy" element={<SettingsPrivacy />} />
+
+              <Route path="team-settings" element={<TeamSettings />} />
+              <Route path="league-settings" element={<LeagueSettings />} />
 
               <Route path="onboarding" element={<Onboarding />} />
               <Route path="create-league" element={<CreateLeague />} />

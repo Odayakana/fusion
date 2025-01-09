@@ -31,15 +31,32 @@ function CreateLeague() {
 
     const [startDate, setStartDate] = useState(new Date());
 
-    const [color, setColor] = useState('#FFFFFF');
 
-    const handleColorChange = (event) => {
-        setColor(event.target.value);
+    const [selectedOption, setSelectedOption] = useState('');
+
+    const handleChangeAmount = (event) => {
+        setSelectedOption(event.target.value);
     };
 
-    const style = {
-        color: color
-    };
+    const teamsAmount = [10, 12, 14, 16, 18, 20]
+
+    const radioTeamsAmount = teamsAmount.map(function (value, index) {
+        return (
+            <div key={index} className="checkbox-block round">
+                <input type="radio"
+                       id={`teams_amount_${value}`}
+                       name="teams-amount"
+                       value={value}
+                       checked={selectedOption === value.toString()}
+                       onChange={handleChangeAmount}
+                />
+                <label htmlFor={`teams_amount_${value}`}>
+                    {value}
+                </label>
+            </div>
+
+        )
+    })
 
     return (
         <div className="page-login">
@@ -75,6 +92,14 @@ function CreateLeague() {
                                 </div>
                             </div>
                         </div>
+
+                        <div className="form-group">
+                            <h4>AMOUNT OF TEAMS</h4>
+                            <div className="radio-container">
+                                {radioTeamsAmount}
+                            </div>
+                        </div>
+
 
                         <div className="form-group">
                             <label htmlFor="i2">INVITE PEOPLE</label>

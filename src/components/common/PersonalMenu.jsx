@@ -36,7 +36,7 @@ function PersonalMenu({showPersonal, setShowPersonal}) {
                 <Link to="#">Dashboard</Link>
             </li>
             <li>
-                <Link to="#">Settings</Link>
+                <Link to="/settings-personal">Settings</Link>
             </li>
             <li>
                 <Link to="#">Log out</Link>

@@ -70,6 +70,7 @@ textarea {
 
 
 }
+
 .custom-dropdown {
 
   .current {
@@ -248,6 +249,61 @@ textarea {
       &:before, &:after {
         border-radius: 50%;
       }
+    }
+  }
+}
+
+.switcher {
+  input {
+    display: none;
+  }
+
+  label {
+    display: block;
+    font-size: 14px;
+    padding-right: 60px;
+    line-height: 20px;
+    font-weight: 300!important;
+    color: $white!important;
+    cursor: pointer;
+    text-transform: unset!important;
+
+    &:before, &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 8px;
+      @include transitionshort;
+    }
+    &:before {
+      right: 0;
+      height: 18px;
+      width: 40px;
+      border-radius: 12px;
+      box-sizing: border-box;
+      margin-top: -7px;
+      border: 1px solid $white;
+    }
+
+    &:after {
+      right: 20px;
+      margin-right: 6px;
+      margin-top: -3px;
+      height: 10px;
+      width: 10px;
+      background-color: $white;
+      border-radius: 50%;
+    }
+
+  }
+
+  input:checked + label {
+    &:before {
+      border: 1px solid $blue;
+    }
+    &:after {
+      background-color: $blue;
+      @include translateX(22px);
     }
   }
 }
@@ -551,6 +607,7 @@ html {
   }
 
 }
+
 .submit-btn {
   height: 40px;
   width: 100%;
@@ -577,6 +634,25 @@ html {
       color: $white;
     }
 
+    &.f-white {
+      color: $white;
+      border: 1px solid $white;
+
+      &:hover {
+        background-color: $white;
+        color: $bg_blue_1;
+      }
+    }
+
+    &.alert {
+      color: $white;
+      border: 1px solid $red;
+
+      &:hover {
+        background-color: $red;
+      }
+    }
+
     &:hover {
       background-color: $bg_blue_5;
       color: $white;
@@ -590,8 +666,11 @@ html {
     pointer-events: none;
   }
 
-}
+  &.thin-btn {
+    width: 130px;
+  }
 
+}
 
 .popup {
   position: fixed;
@@ -918,6 +997,17 @@ header {
 .page-error {
   padding: 50px 0 0;
   text-align: center;
+}
+
+.btn-clear {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: inherit;
+  cursor: pointer;
+
 }
 
 [draggable="true"] {

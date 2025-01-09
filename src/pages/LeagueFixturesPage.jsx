@@ -26,11 +26,13 @@ function LeagueFixturesPage() {
                 <div className="title-block">
                     <h1>{cLeague.title}</h1>
 
-                    <Link to={"/join-league"} className="read-more-btn">
-                        Switch league
+                    <div className="ctrl-block">
+                        <Link to={"/join-league"} className="read-more-btn">
+                            Switch league
 
-                        <span className="ico icon-arrow-right" />
-                    </Link>
+                            <span className="ico icon-arrow-right" />
+                        </Link>
+                    </div>
                 </div>
 
                 <CalendarSlider />

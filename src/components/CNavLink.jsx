@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom"
 
-function CNavLink({children, to, active, ...props}) {
+function CNavLink({children, to, active = [], ...props}) {
 
     // const match = useMatch(to) ? 'active' : ''
     const location = useLocation();
