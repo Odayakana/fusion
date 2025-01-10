@@ -1657,6 +1657,9 @@ html {
   min-height: 100vh;
   color: #ffffff;
 }
+#main.no-header {
+  padding-top: 100px;
+}
 
 .onpage-nav-block {
   display: flex;
@@ -2054,6 +2057,9 @@ header {
 @media screen and (max-width: 960px) {
   #main {
     padding-bottom: 80px;
+  }
+  #main.no-header {
+    padding-top: 60px;
   }
 
   .onpage-nav-block {

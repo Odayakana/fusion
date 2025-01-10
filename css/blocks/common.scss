@@ -537,6 +537,9 @@ html {
   //padding-top: 120px;
   color: $white;
 
+  &.no-header {
+    padding-top: 100px;
+  }
 }
 
 .onpage-nav-block {
@@ -1026,6 +1029,11 @@ header {
     #main {
       padding-bottom: 80px;
       //padding-top: 70px;
+
+      &.no-header {
+        padding-top: 60px;
+      }
+
     }
 
 
