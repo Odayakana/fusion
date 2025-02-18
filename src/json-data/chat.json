@@ -1,0 +1,276 @@
+[
+  {
+    "id": 1,
+    "image": "/src/assets/profile.png",
+    "members": 4,
+    "title": "Username1",
+    "messages": [
+      {
+        "sender": "User1",
+        "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Lorem ipsum dolor sit amet.",
+        "time": 1698000000
+      },
+      {
+        "sender": "User1",
+        "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Consectetur adipiscing elit.",
+        "time": 1698000600
+      },
+      {
+        "sender": "User2",
+        "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Sed do eiusmod tempor.",
+        "time": 1698001200
+      },
+      {
+        "sender": "User2",
+        "image": "/src/assets/profile.png",
+        "statusNew": true,
+        "message": "Incididunt ut labore et dolore.",
+        "time": 1736013648
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/src/assets/profile.png",
+    "members": 2,
+    "title": "Username2",
+    "messages": [
+      {
+        "sender": "User1",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Ut enim ad minim veniam.",
+        "time": 1697920000
+      },
+      {
+        "sender": "User3",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Quis nostrud exercitation ullamco.",
+        "time": 1697920600
+      },
+      {
+        "sender": "User1",
+       "image": "/src/assets/profile.png",
+        "statusNew": true,
+        "message": "Laboris nisi ut aliquip ex ea commodo.",
+        "time": 1697921200
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/src/assets/profile.png",
+    "members": 2,
+    "title": "Username3",
+    "messages": [
+      {
+        "sender": "User4",
+       "image": "/src/assets/profile.png",
+        "statusNew": true,
+        "message": "Duis aute irure dolor in reprehenderit.",
+        "time": 1697890000
+      },
+      {
+        "sender": "User5",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "In voluptate velit esse cillum.",
+        "time": 1697890600
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "/src/assets/profile.png",
+    "members": 5,
+    "title": "Username4",
+    "messages": [
+      {
+        "sender": "User6",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Excepteur sint occaecat cupidatat.",
+        "time": 1697830000
+      },
+      {
+        "sender": "User1",
+       "image": "/src/assets/profile.png",
+        "statusNew": true,
+        "message": "Non proident, sunt in culpa.",
+        "time": 1697830600
+      },
+      {
+        "sender": "User2",
+       "image": "/src/assets/profile.png",
+        "statusNew": true,
+        "message": "Qui officia deserunt mollit anim.",
+        "time": 1697831200
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "/src/assets/profile.png",
+    "members": 1,
+    "title": "Username5",
+    "messages": [
+      {
+        "sender": "User7",
+       "image": "/src/assets/profile.png",
+        "statusNew": true,
+        "message": "Lorem ipsum dolor sit amet.",
+        "time": 1697810000
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "/src/assets/profile.png",
+    "members": 4,
+    "title": "Username6",
+    "messages": [
+      {
+        "sender": "User8",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Consectetur adipiscing elit.",
+        "time": 1697800000
+      },
+      {
+        "sender": "User8",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Sed do eiusmod tempor.",
+        "time": 1697800600
+      },
+      {
+        "sender": "User8",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Incididunt ut labore et dolore.",
+        "time": 1697801200
+      },
+      {
+        "sender": "User8",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Ut enim ad minim veniam.",
+        "time": 1697801800
+      },
+      {
+        "sender": "User8",
+       "image": "/src/assets/profile.png",
+        "statusNew": true,
+        "message": "Quis nostrud exercitation ullamco.",
+        "time": 1697802400
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "/src/assets/profile.png",
+    "members": 4,
+    "title": "Username7",
+    "messages": [
+      {
+        "sender": "User1",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Laboris nisi ut aliquip ex ea commodo.",
+        "time": 1697780000
+      },
+      {
+        "sender": "User2",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Duis aute irure dolor in reprehenderit.",
+        "time": 1697780600
+      },
+      {
+        "sender": "User3",
+       "image": "/src/assets/profile.png",
+        "statusNew": true,
+        "message": "In voluptate velit esse cillum.",
+        "time": 1697781200
+      },
+      {
+        "sender": "User4",
+       "image": "/src/assets/profile.png",
+        "statusNew": true,
+        "message": "Excepteur sint occaecat cupidatat.",
+        "time": 1736013594248
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "/src/assets/profile.png",
+    "members": 7,
+    "title": "Username8",
+    "messages": [
+      {
+        "sender": "User5",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Non proident, sunt in culpa.",
+        "time": 1697760000
+      },
+      {
+        "sender": "User1",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Qui officia deserunt mollit anim.",
+        "time": 1697760600
+      },
+      {
+        "sender": "User6",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Lorem ipsum dolor sit amet.",
+        "time": 1697761200
+      },
+      {
+        "sender": "User7",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Consectetur adipiscing elit.",
+        "time": 1697761800
+      },
+      {
+        "sender": "User7",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Sed do eiusmod tempor.",
+        "time": 1697762400
+      },
+      {
+        "sender": "User7",
+       "image": "/src/assets/profile.png",
+        "statusNew": false,
+        "message": "Incididunt ut labore et dolore.",
+        "time": 1697763000
+      },
+      {
+        "sender": "User7",
+       "image": "/src/assets/profile.png",
+        "statusNew": true,
+        "message": "Ut enim ad minim veniam.",
+        "time": 1697763600
+      },
+      {
+        "sender": "User7",
+       "image": "/src/assets/profile.png",
+        "statusNew": true,
+        "message": "Quis nostrud exercitation ullamco.",
+        "time": 1697764200
+      }
+    ]
+  }
+]

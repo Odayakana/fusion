@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?');
+  src:  url('fonts/icomoon.eot?') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?') format('truetype'),
+  url('fonts/icomoon.woff?') format('woff'),
+  url('fonts/icomoon.svg?') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-gear:before {
+  content: "\e91e";
+}
+.icon-t-shirt:before {
+  content: "\e91d";
+}
+.icon-r-b-cross:before {
+  content: "\e91c";
+}
+.icon-r-check:before {
+  content: "\e90b";
+}
+.icon-nova:before {
+  content: "\e91b";
+}
+.icon-logo:before {
+  content: "\e91a";
+}
+.icon-filters:before {
+  content: "\e916";
+}
+.icon-league:before {
+  content: "\e917";
+}
+.icon-team:before {
+  content: "\e918";
+}
+.icon-transfers:before {
+  content: "\e919";
+}
+.icon-arrow-bottom:before {
+  content: "\e900";
+}
+.icon-arrow-left:before {
+  content: "\e901";
+}
+.icon-arrow-right:before {
+  content: "\e902";
+}
+.icon-back:before {
+  content: "\e903";
+}
+.icon-ball:before {
+  content: "\e904";
+}
+.icon-calendar:before {
+  content: "\e905";
+}
+.icon-chev-right:before {
+  content: "\e906";
+}
+.icon-cross .path1:before {
+  content: "\e907";
+  color: rgb(255, 79, 79);
+}
+.icon-cross .path2:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-file:before {
+  content: "\e909";
+}
+.icon-hexagon:before {
+  content: "\e90a";
+}
+.icon-message:before {
+  content: "\e90c";
+}
+.icon-minus:before {
+  content: "\e90d";
+}
+.icon-notif:before {
+  content: "\e90e";
+}
+.icon-plus:before {
+  content: "\e90f";
+}
+.icon-r-cross .path1:before {
+  content: "\e910";
+  color: rgb(255, 79, 79);
+}
+.icon-r-cross .path2:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-s-cross:before {
+  content: "\e912";
+}
+.icon-search:before {
+  content: "\e913";
+}
+.icon-send:before {
+  content: "\e914";
+}
+.icon-tip:before {
+  content: "\e915";
+}

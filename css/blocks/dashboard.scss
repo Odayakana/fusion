@@ -1,0 +1,431 @@
+.dashboard-page {
+
+  .dashboard-user-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 270px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 270px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    max-width: 770px;
+    margin: 0 auto;
+  }
+
+  .col {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px;
+  }
+
+  .info-block {
+    background-color: $bg_blue_2;
+    border-radius: 30px;
+    padding: 20px;
+
+    h1, h4, .info {
+      font-size: 14px;
+      line-height: 1.2;
+    }
+
+    h1, h4 {
+      text-transform: uppercase;
+    }
+
+    .title-header-block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 0 16px;
+
+      h4 {
+        margin: 0;
+      }
+
+      a {
+        font-size: 12px;
+        margin: 0;
+        color: $bg_blue_5;
+        text-transform: uppercase;
+      }
+    }
+
+    .drop-block {
+      margin: 0 0 10px;
+    }
+
+
+    .league-teams-container {
+      font-size: 13px;
+      font-weight: 400;
+
+      .header {
+        padding-bottom: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .row-container {
+        padding: 12px 0;
+        border-top: 1px solid $bg_blue_7;
+
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          @include transition;
+
+          &:hover, &.active {
+            color: $bg_blue_5;
+          }
+        }
+      }
+
+      .title-block {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        grid-column-gap: 10px;
+        margin: 0;
+
+        .num {
+          width: 14px;
+          text-align: left;
+        }
+
+        img {
+          height: 20px;
+          width: 20px;
+          border-radius: 6px;
+          object-fit: cover;
+        }
+
+        h5 {
+          font-size: 13px;
+          font-weight: 400;
+        }
+      }
+
+
+    }
+
+    .players-slider {
+      width: 270px;
+      display: flex;
+      align-items: flex-start;
+
+      .slider-content {
+        .player-title-block {
+          display: grid;
+          grid-template-columns: 20px 24px 1fr 20px;
+          grid-column-gap: 10px;
+          align-items: center;
+          font-size: 16px;
+          font-weight: 400;
+          margin: 0 0 18px;
+
+          h5 {
+            font-size: 16px;
+            font-weight: 400;
+          }
+
+          .pos {
+            color: $bg_blue_5;
+          }
+
+          img {
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+
+          .ico {
+            font-size: 20px;
+          }
+
+        }
+
+        .player-stats {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          align-items: flex-start;
+          font-size: 13px;
+          font-weight: 400;
+          text-align: center;
+
+          .title {
+            padding: 0 0 6px;
+            border-bottom: 1px solid $chat_bg;
+          }
+
+          .val {
+            padding: 6px 0;
+            border-bottom: 1px solid $chat_bg;
+          }
+
+        }
+
+      }
+
+      .swiper-pagination {
+        position: relative;
+        margin-top: 14px;
+
+        .swiper-pagination-bullet {
+          background-color: $bg_blue_3;
+          height: 8px;
+          width: 8px;
+          opacity: 1;
+          @include transition;
+
+          &.swiper-pagination-bullet-active {
+            background-color: $bg_blue_5;
+
+          }
+        }
+      }
+
+    }
+
+  }
+
+  .next-tiles {
+    display: block;
+    margin: 0;
+    max-width: unset;
+
+    .tile {
+      height: 100%;
+    }
+
+    a {
+      height: 100%;
+      min-height: 304px;
+    }
+  }
+
+  .user-info-block {
+    padding-bottom: 10px;
+
+    .user-info-row {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 0 14px;
+    }
+
+    .user-info {
+      display: flex;
+      justify-content: flex-start;
+      grid-column-gap: 14px;
+
+      .image-block {
+        img {
+          height: 80px;
+          width: 80px;
+          border-radius: 14px;
+          object-fit: cover;
+        }
+      }
+
+      .info-col {
+        padding: 6px 0;
+      }
+
+      h1, .info {
+        margin: 0 0 8px;
+
+        &:last-child {
+          margin: 0;
+        }
+      }
+
+
+    }
+
+    .ctrls-col {
+      width: 96px;
+
+      .submit-btn {
+        height: 28px;
+        border-radius: 8px;
+        font-size: 12px;
+        margin: 0 0 10px;
+      }
+
+      .message-btn {
+        border: none;
+        background-color: transparent;
+        outline: none;
+        padding: 0;
+        color: $bg_blue_5;
+        font-size: 14px;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        grid-column-gap: 10px;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin: 0 0 10px;
+
+        .ico {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 24px;
+          width: 24px;
+          background-color: $bg_blue_5;
+          border-radius: 6px;
+          font-size: 12px;
+          color: $white;
+        }
+      }
+
+      .rank-block {
+        border-radius: 8px;
+        background-color: $bg_blue_3;
+        padding: 4px 12px 6px;
+        text-transform: uppercase;
+        font-size: 10px;
+        line-height: 1.2;
+
+        .rank {
+          font-size: 24px;
+          line-height: 1;
+          margin: 0 0 4px;
+
+        }
+
+
+      }
+
+    }
+
+    .teams-row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      grid-column-gap: 20px;
+
+      h4 {
+        margin: 0 0 16px;
+      }
+
+      .teams-block {
+        max-width: 186px;
+      }
+
+      .teams-container {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        grid-column-gap: 18px;
+        grid-row-gap: 18px;
+        margin: 0 0 20px;
+
+        a {
+          display: block;
+
+          img {
+            height: 50px;
+            width: 50px;
+            border-radius: 10px;
+            object-fit: cover;
+          }
+        }
+
+      }
+
+      .leagues-block {
+
+        h4 {
+          margin: 0 0 8px;
+        }
+
+
+        .row-container {
+          padding: 10px 0;
+          border-top: 1px solid $bg_blue_7;
+
+          a {
+            @include transition;
+            &:hover, &.active {
+              color: $bg_blue_5;
+            }
+          }
+        }
+
+        .info-row {
+          display: grid;
+          grid-template-columns: 1fr 30px;
+          grid-column-gap: 10px;
+          font-size: 13px;
+          font-weight: 400;
+
+          &.head-row {
+            padding-bottom: 6px;
+          }
+
+          .position {
+            text-align: center;
+          }
+
+          .title-block {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            grid-column-gap: 10px;
+
+            img {
+              height: 20px;
+              width: 20px;
+              border-radius: 6px;
+              object-fit: cover;
+            }
+
+            h5 {
+              font-size: 13px;
+              font-weight: 400;
+            }
+          }
+
+
+
+
+        }
+
+
+      }
+
+    }
+
+
+  }
+
+
+
+}
+
+@media screen {
+  @media (max-width: 960px) {
+
+    .dashboard-page {
+
+      .dashboard-user-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .dashboard-grid {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+  }
+}

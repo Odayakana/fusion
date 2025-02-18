@@ -1,0 +1,22 @@
+[
+  {"id": 1, "image": "/src/assets/profile_2.png", "points": 20, "title": "Dicki, Kuphal and Abernathy", "shortTitle": "D.K. & A.", "league_id": 2},
+  {"id": 2, "image": "/src/assets/profile.png", "points": 19, "title": "Bernhard, Larkin and MacGyver", "shortTitle": "B.L. & M.", "league_id": 1},
+  {"id": 3, "image": "/src/assets/profile_2.png", "points": 11, "title": "Wisoky Inc", "shortTitle": "Wisoky Inc", "league_id": 3},
+  {"id": 4, "image": "/src/assets/profile_2.png", "points": 9, "title": "Morissette-Smith", "shortTitle": "M.-S.", "league_id": 2},
+  {"id": 5, "image": "/src/assets/profile_2.png", "points": 11, "title": "Lowe Inc", "shortTitle": "Lowe Inc", "league_id": 1},
+  {"id": 6, "image": "/src/assets/profile.png", "points": 19, "title": "Mayert-Schroeder", "shortTitle": "M.-S.", "league_id": 3},
+  {"id": 7, "image": "/src/assets/profile_2.png", "points": 17, "title": "Kunde, Prosacco and Ryan", "shortTitle": "K.P. & R.", "league_id": 2},
+  {"id": 8, "image": "/src/assets/profile_2.png", "points": 5, "title": "Powlowski Group", "shortTitle": "Powlowski G.", "league_id": 1},
+  {"id": 9, "image": "/src/assets/profile_2.png", "points": 14, "title": "Beatty LLC", "shortTitle": "Beatty LLC", "league_id": 3},
+  {"id": 10, "image": "/src/assets/profile_2.png", "points": 11, "title": "Beahan, Johns and Cremin", "shortTitle": "B.J. & C.", "league_id": 2},
+  {"id": 11, "image": "/src/assets/profile_2.png", "points": 17, "title": "Marks Inc", "shortTitle": "Marks Inc", "league_id": 1},
+  {"id": 12, "image": "/src/assets/profile.png", "points": 8, "title": "Brakus-Crooks", "shortTitle": "B-C.", "league_id": 3},
+  {"id": 13, "image": "/src/assets/profile_2.png", "points": 19, "title": "Weber, McKenzie and Pouros", "shortTitle": "W.M. & P.", "league_id": 2},
+  {"id": 14, "image": "/src/assets/profile.png", "points": 9, "title": "Bins-Prohaska", "shortTitle": "B.-P.", "league_id": 1},
+  {"id": 15, "image": "/src/assets/profile_2.png", "points": 12, "title": "Collier and Sons", "shortTitle": "C. & S.", "league_id": 3},
+  {"id": 16, "image": "/src/assets/profile_2.png", "points": 3, "title": "White Inc", "shortTitle": "White Inc", "league_id": 2},
+  {"id": 17, "image": "/src/assets/profile.png", "points": 4, "title": "Bruen-Mayer", "shortTitle": "B.-M.", "league_id": 1},
+  {"id": 18, "image": "/src/assets/profile.png", "points": 16, "title": "Russel, Murazik and Little", "shortTitle": "R.M. & L.", "league_id": 3},
+  {"id": 19, "image": "/src/assets/profile.png", "points": 3, "title": "Franecki, Hand and McKenzie", "shortTitle": "F.H. & M.", "league_id": 2},
+  {"id": 20, "image": "/src/assets/profile.png", "points": 17, "title": "Trantow-Schaden", "shortTitle": "T.-S.", "league_id": 1}
+]
